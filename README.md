@@ -1,4 +1,4 @@
-# [칸반보드](https://psgkanban.herokuapp.com)
+# 칸반보드[사이트](https://psgkanban.herokuapp.com)
 
 ## 서비스 소개
 * 개인이 자신의 작업을 관리하기 위해 준비중, 작업중, 완료로 분류를 나눠 작업을 작성, 수정, 삭제할 수 있습니다.
