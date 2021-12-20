@@ -1,0 +1,11 @@
+CREATE TABLE `worklist` (
+  `idx` int NOT NULL AUTO_INCREMENT,
+  `memNo` int DEFAULT '0',
+  `status` enum('ready','progress','done') DEFAULT 'ready',
+  `subject` varchar(100) NOT NULL,
+  `content` text NOT NULL,
+  `regDt` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`idx`),
+  KEY `ix_memNo` (`memNo`),
+  KEY `ix_regDt_desc` (`regDt` DESC)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4
