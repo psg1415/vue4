@@ -8,4 +8,7 @@
 |회원가입|로그인|회원정보수정|
 |--------|------|------------|
 |![png_1](./backend/images/회원가입.png)|![png_2](./backend/images/로그인.png)|![png_3](./backend/images/회원정보수정.png)|
-* 작업 작성, 수정, 삭제
+
+|작업등록|상세보기|작업수정|
+|--------|-------|--------|
+|![png_4](./backend/images/작업등록.png)|![png_5](./backend/images/상세보기.png)|![png_6](./backend/images/작업수정.png)|
